@@ -1,6 +1,6 @@
 const Options = ({ updateFeedback, resetFeedback, hasFeedback }) => {
     return (
-        <div>
+        <div style={{ display: "flex", gap: 4}}>
             <button onClick={() => updateFeedback("good")}>Good</button>
             <button onClick={() => updateFeedback("neutral")}>Neutral</button>
             <button onClick={() => updateFeedback("bad")}>Bad</button>
